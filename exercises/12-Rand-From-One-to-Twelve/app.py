@@ -1,8 +1,9 @@
 import random
 
 def get_randomInt():
-	# ✅↓ Write your code here ↓✅
-	return None
+	numR = random.randrange(1, 13)
+	return numR
 
-# ❌ ↓ DON'T CHANGE THE CODE BELOW ↓ ❌
+
 print(get_randomInt())
+
